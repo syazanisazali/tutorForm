@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Curriculum Vitae Form</title>
+    <link rel="stylesheet" href="Style/externalstyle.css">
+  </head>
+
+  <body>
+    <h1> CURRICULUM VITAE FORM </h1>
+    <nav>
+      <ul class="links-list">
+        <li><a href="#Personal"> Personal Details </a></li>
+        <li><a href="#Education"> Education </a></li>
+        <li><a href="#Experience"> Experience </a></li>
+        <li><a href="#Skill"> Skill </a></li>
+      </ul>
+    </nav>
+
+    <form>
+      <div>
+        <span><a name="Personal"> Personal details</a></span>
+        <br/><br/>
+
+        <label> Full name :</label>
+        <input type="text" required><br/><br/>
+
+        <label> Email :</label>
+        <input type="email" id="email" name="email" multiple required>
+
+        <label> Phone number :  +06 </label>
+        <input type="number" maxlength="11" value="000" required><br/><br/>
+
+        <label> Birthday :</label>
+        <input type="date" required>
+
+        <label> Country :</label>
+        <input type="text" required><br/><br/>
+
+        <label> Upload Your Personal Photo :</label>
+        <input type="file" name="pic" accept="image/*"><br/><br/>
+
+      </div>
+      <div>
+        <span><a name="Education"> Education </a></span>
+        <br/><br/>
+
+        <label> Study Program :</label>
+        <input type="text" required><br/><br/>
+
+        <label> Start :</label>
+        <input type="date" required>
+
+        <label> End :</label>
+        <input type="date" required>
+        <input type="radio"> Present <br/><br/>
+
+        <label> Country :</label>
+        <input type="text" required><br/><br/>
+
+      </div>
+      <div>
+        <span><a name="Experience"> Add Your Experience</a></span>
+        <br/><br/>
+        <textarea cols="40" rows="4"></textarea><br/><br/>
+
+        <span><a name="Skill"> Add Your Skill</a></span>
+        <br/><br/>
+        <textarea cols="40" rows="4"></textarea><br/><br/>
+
+      </div>
+      <div>
+        <button type="submit"> Submit </button>
+        <button type="reset"> Reset </button>
+
+      </div>
+
+    </form>
+  </body>
+</html>
